@@ -1,4 +1,4 @@
-BEGIN {
+BEGIN{
 		count=0;
 		time=0;
 }
@@ -12,5 +12,5 @@ BEGIN {
 
 }
              
-END {
+END{
 }
