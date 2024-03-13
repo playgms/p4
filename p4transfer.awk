@@ -8,7 +8,7 @@
       bytes_recieved_at_client += $6;
      }
      
-     if ($1==1 && $4==0 && $5 == tcp) {
+     if ($1=="+" && $4==0 && $5 == "tcp") {
       bytes_sent_by_server += $6;
      
      }
